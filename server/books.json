@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "JavaScript: The Good Parts",
+      "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined.",
+      "price": 16.56,
+      "img": "book1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Pro Git",
+      "description": "Effective and well-implemented version control is a necessity for successful web projects, whether large or small. With this book you’ll learn how to master the world of distributed version workflow, use the distributed features of Git to the full, and extend Git to meet your every need.",
+      "price": 46.75,
+      "img": "book2.png"
+    },
+    {
+      "id": 3,
+      "title": "Design Patterns: Elements of reusable OO software",
+      "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems.",
+      "price": 32.88,
+      "img": "book3.png"
+    },
+    {
+      "id": 4,
+      "title": "Eloquent JavaScript",
+      "description": "JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+      "price": 25.35,
+      "img": "book4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Design of Everyday Things",
+      "description": "The rules are simple: make things visible, exploit natural relationships that couple function and control, and make intelligent use of constraints. The goal: guide the user effortlessly to the right action on the right control at the right time.",
+      "price": 20.22,
+      "img": "book5.jpg"
+    }
+  ]
+}
