@@ -2,12 +2,11 @@ const express = require('express');
 const Stripe = require('stripe');
 const cors = require('cors');
 const books = require('./books.json');
+require('dotenv').config();
 
 const app = express();
 
-const stripe = new Stripe(
-  'sk_test_51HkBAxHAqnYIwmKnuWYAtksVgZRIr0MBjoxWIGMxJEinAN7pdFQS88S9YfDiqjujvPMtyxPCgPlil8LAkiDBfn6m00sje1ouVb'
-);
+const stripe = new Stripe(process.env.REACT_APP_STRIPE_SECRET_KEY);
 
 app.use(express.json());
 app.use(cors());

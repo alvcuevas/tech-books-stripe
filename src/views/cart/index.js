@@ -8,9 +8,7 @@ import axios from 'axios';
 
 import './index.scss';
 
-const stripePromise = loadStripe(
-  'pk_test_51HkBAxHAqnYIwmKnaZXOxeGDbERkmr0mOik4AAeMrSCwLCG8vvewpyDngqM7hpGTB0mjeY0NSnKqSUfiSEUxQCrp00QbabcErs'
-);
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const CartView = () => {
   const [shippingCost, setShippingCost] = useState(0);
