@@ -8,4 +8,4 @@
 ### Usage
 
 1. Install dependencies: `yarn install` | `npm install`
-2. Run application on dev mode: `yarn dev` | `npm run dev`
+2. Run both client & server on dev mode: `yarn dev` | `npm run dev`
