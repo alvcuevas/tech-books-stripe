@@ -1,0 +1,97 @@
+.shopping-cart {
+  display: flex;
+  width: 100%;
+  padding: 0px 38px;
+
+  .cart-items {
+    width: 80%;
+
+    h3 {
+      text-decoration: underline;
+    }
+
+    .items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 40px 20px 0px;
+
+      .MuiSvgIcon-colorSecondary {
+        cursor: pointer;
+      }
+
+      span {
+        font-style: italic;
+      }
+    }
+  }
+
+  .checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    background: #fafafa;
+    padding: 2rem;
+
+    table {
+      border-collapse: collapse;
+
+      td {
+        padding-bottom: 20px;
+      }
+    }
+
+    table,
+    &__btn {
+      width: 100%;
+    }
+
+    &__btn {
+      padding: 0.5rem 0.75rem;
+      border-radius: 3px;
+      border: none;
+      background-color: #2c3e50;
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.15s ease;
+
+      &:hover {
+        background-color: #42b983;
+      }
+
+      &.disabled {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+    }
+
+    &__error {
+      color: red;
+      text-align: center;
+    }
+
+    &__success {
+      color: green;
+      text-align: center;
+    }
+
+    &__quantity {
+      text-align: right;
+    }
+
+    select {
+      width: 105px;
+    }
+  }
+
+  .payment {
+    padding-top: 20px;
+
+    .StripeElement {
+      padding-bottom: 20px;
+    }
+  }
+}
