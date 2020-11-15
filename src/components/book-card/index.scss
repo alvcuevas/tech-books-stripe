@@ -1,0 +1,44 @@
+.book {
+  display: flex;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+}
+
+img {
+  height: 130px;
+  width: 80px;
+  border: 1px solid gray;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 23px;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .desc {
+    font-style: italic;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+
+    .MuiSvgIcon-root {
+      cursor: pointer;
+
+      &:hover {
+        color: #f50057;
+      }
+    }
+  }
+}
