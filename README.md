@@ -1,9 +1,9 @@
-## Tech Books Store with Stripe
+## Tech Books Store using React & Stripe
 ### Resources
 
 - <i>Client:</i> React, Hooks, Context, Axios, Material UI
 - <i>Server:</i> Node, Express
-- <i>E-Commerce & Payment:</i> Stripe
+- <i>E-Commerce:</i> Stripe
 
 ### Usage
 
